@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETEC AE - Autenticar</title>
+
+    <link rel="stylesheet" href="css.css">
+
+    <style type="text/css"> 
+        body {
+            background-color:#48633b;
+            }
+            h3 {
+                background-color:rgb(32, 63, 6);
+                color:rgb(149, 218, 22);
+                font-family:Comic Sans MS;
+                text-align:center;
+            }
+            .tabela {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            
+    </style> 
+
+
+</head>
+<body>
+
+    <header>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <img src="imagens/login.jpg" alt="">
+        </label>
+        <nav id="Menu"> 
+            <ul>
+                <table border="3" class="tabela">
+                    <tr>
+            
+                        <td>
+            
+                <div id="signin">
+                    <h4>Entrar</h4>
+                    <input type="email" id="emailEntrar" placeholder="Informe email">
+                    <input type="password" id="senhaEntrar" placeholder="Informe senha">
+                    <br>
+                    <input type="button" id="btnEntrar" value="Entrar">
+                    <br>
+                    <input type="button" id="btnGoogle" value="Entrar Google">
+                </div>
+            
+                </td>
+
+                </table>
+            </ul>
+        </nav>
+
+    </header>
+<br>
+<br>
+<br>
+
+
+    <header>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <img src="imagens/Cadastrar.jpg" alt="">
+        </label>
+        <nav id="Menu2"> 
+            <ul>
+                <table border="3" class="tabela">
+                    <tr>
+            
+                        <td>
+            
+                            <div id="signup">
+                                <h4>Cadastrar</h4>
+                                <input type="email" id="emailCad" placeholder="Informe email">
+                                <input type="password" id="senhaCad"  placeholder="Informe senha">
+                                <input type="password" id="senhaCad2" placeholder="Confirme senha">
+                                <input type="button" id="btnCad" value="Criar usuário">
+                            </div>
+            
+                </td>
+
+                </table>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h3>Etec Albert Einstein</h3>
+
+
+    <!-- <div id="signin">
+        <h4>Entrar</h4>
+        <input type="email" id="emailEntrar" placeholder="Informe email">
+        <input type="password" id="senhaEntrar" placeholder="Informe senha">
+        <br>
+        <input type="button" id="btnEntrar" value="Entrar">
+        <br>
+        <input type="button" id="btnGoogle" value="Entrar Google">
+    </div> -->
+
+ 
+
+    <!-- <div id="signup">
+        <h4>Cadastrar</h4>
+        <input type="email" id="emailCad" placeholder="Informe email">
+        <input type="password" id="senhaCad"  placeholder="Informe senha">
+        <input type="password" id="senhaCad2" placeholder="Confirme senha">
+        <input type="button" id="btnCad" value="Criar usuário">
+    </div> -->
+
+   
+    
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
